@@ -1,0 +1,20 @@
+[0608/181446.555:WARNING:sqlite_persistent_store_backend_base.cc(165)] Failed to post task from FinishedLoadingCookies@net/extras/sqlite/sqlite_persistent_cookie_store.cc:1619 to client_task_runner_.
+[0608/181446.571:WARNING:sqlite_persistent_store_backend_base.cc(165)] Failed to post task from LoadKeyAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_cookie_store.cc:759 to client_task_runner_.
+[0608/182509.346:INFO:child_thread_impl.cc(903)] ChildThreadImpl::EnsureConnected()
+[0608/182515.122:INFO:child_thread_impl.cc(903)] ChildThreadImpl::EnsureConnected()
+[0608/182522.991:ERROR:network_service_instance_impl.cc(978)] Network service crashed, restarting service.
+[0706/160840.205:INFO:CONSOLE(167)] "%c        font-size: 130px; background: url(https://neverlose.cc/static/assets/img/logo_b.png) no-repeat;", source: http://disneyclient.net/public/app.js.download (167)
+[0706/160840.206:INFO:CONSOLE(167)] "Neverlose.cc Copyright (c) 2020", source: http://disneyclient.net/public/app.js.download (167)
+[0706/160840.206:INFO:CONSOLE(167)] "🙈🙉🙊", source: http://disneyclient.net/public/app.js.download (167)
+[0706/160840.271:INFO:CONSOLE(24)] "THREE.WebGLRenderer 103", source: http://disneyclient.net/public/app.js.download (24)
+[0706/164539.074:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0706/164539.074:ERROR:cache_util.cc(146)] Unable to move cache folder C:\Users\Admin\AppData\Local\disneyclient\GPUCache to C:\Users\Admin\AppData\Local\disneyclient\old_GPUCache_000
+[0706/164539.074:ERROR:disk_cache.cc(185)] Unable to create cache
+[0706/164539.074:ERROR:shader_disk_cache.cc(612)] Shader Cache Creation failed: -2
+[0706/164539.259:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0706/164539.259:ERROR:cache_util.cc(146)] Unable to move cache folder C:\Users\Admin\AppData\Local\disneyclient\Cache\Cache_Data to C:\Users\Admin\AppData\Local\disneyclient\Cache\old_Cache_Data_000
+[0706/164539.259:ERROR:disk_cache.cc(185)] Unable to create cache
+[0706/164540.980:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+[0706/164609.470:ERROR:database.cc(1777)] Cookie SQLite error: code 2067 errno 0: UNIQUE constraint failed: cookies.host_key, cookies.top_frame_site_key, cookies.name, cookies.path sql: INSERT INTO cookies (creation_utc, host_key, top_frame_site_key, name, value, encrypted_value, path, expires_utc, is_secure, is_httponly, last_access_utc, has_expires, is_persistent, priority, samesite, source_scheme, source_port, is_same_party) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0706/170415.162:INFO:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://disneyclient.net/get-link (1)
+[0722/073509.003:ERROR:component_installer.cc(355)] Failed to read manifest or verify installation for Widevine Content Decryption Module (C:\Users\Admin\AppData\Local\CEF\User Data\WidevineCdm\4.10.2710.0).: The system cannot find the path specified. (0x3)

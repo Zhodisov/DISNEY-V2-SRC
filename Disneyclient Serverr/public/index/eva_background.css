@@ -1,0 +1,24 @@
+
+
+.eva-nav-bar {
+    background-color: #44475a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.eva-page-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.eva-page-main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,2 @@
+
+         _loc1_.load(new URLRequest("http://disneyclient.net/get_keys?type=2&flash_token=" + this.main_instance.flash_token + "&access_token=" + "9016e068889226c1ac1146fcbe290a3d60798c56480" + "&d=" + new Date().time));

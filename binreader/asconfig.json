@@ -1,0 +1,14 @@
+{
+    "config": "air",
+    "compilerOptions": {
+        "source-path": [
+            "src"
+        ],
+        "output": "bin/DecryptedSafeMarket4.swf",
+        "library-path": []
+    },
+    "files": [
+        "src/DecryptedSafeMarket4.as"
+    ],
+    "application": "src/DecryptedSafeMarket4-app.xml"
+}

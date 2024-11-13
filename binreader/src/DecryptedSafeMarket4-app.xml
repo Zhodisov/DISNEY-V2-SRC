@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+    <id>com.example.DecryptedSafeMarket4</id>
+    <versionNumber>0.1.0</versionNumber>
+    <filename>DecryptedSafeMarket4</filename>
+    <initialWindow>
+        <content>bin/DecryptedSafeMarket4.swf</content>
+        <visible>true</visible>
+        <fullscreen>false</fullscreen>
+        <autoOrients>false</autoOrients>
+    </initialWindow>
+</application>

@@ -1,0 +1,39 @@
+from flask import Flask, request, jsonify, send_from_directory
+import os
+import logging
+
+app = Flask(__name__)
+
+x = os.path.join(os.path.dirname(__file__), 'tfmswf')
+p = 'app.log'
+vv = logging.getLogger()
+vv.setLevel(logging.INFO)
+
+ff = logging.FileHandler(p)
+ff.setLevel(logging.INFO)
+fm = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+ff.setFormatter(fm)
+vv.addHandler(ff)
+
+@app.route('/trace', methods=['POST'])
+def trace():
+    d = request.form.get('trace', '')
+    vv.info(f"Trace data: {d}")
+    return jsonify({"status": "success"}), 200
+
+@app.route('/trace2', methods=['POST'])
+def trace2():
+    d = request.form.get('trace', '')
+    vv.info(f"Trace2 data: {d}")
+    return jsonify({"status": "success"}), 200
+
+@app.route('/tfm.swf')
+def serve_swf():
+    return send_from_directory(x, 'tfm.swf')
+
+@app.route('/')
+def index():
+    return ""
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080, debug=True)

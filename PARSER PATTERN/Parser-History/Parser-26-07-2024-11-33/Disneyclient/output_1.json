@@ -1,0 +1,13 @@
+{
+    "file": "./Parser-History/Parser-26-07-2024-11-33\\Disneyclient\\output.txt",
+    "results": {
+        "parser1": {
+            "main_socket_instance": "\\8\\5\\8\\6\\8\\6\\3\\5\\5\\8\\3\\2"
+        },
+        "parser2": {
+            "main_socket_instance": "\\8\\5\\8\\6\\8\\6\\3\\5\\5\\8\\3\\2"
+        },
+        "parser3": {}
+    },
+    "cross_verification": true
+}

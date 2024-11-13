@@ -1,0 +1,39 @@
+[HEADER]        File version: 14
+[HEADER]        File is zlib compressed. Ratio: 67%
+[HEADER]        File size: 2923261
+[HEADER]        Frame rate: 60.000000
+[HEADER]        Frame count: 1
+[HEADER]        Movie width: 800.00
+[HEADER]        Movie height: 600.00
+[045]         4 FILEATTRIBUTES usenetwork as3 symbolclass
+[04d]       450 METADATA
+[041]         4 SCRIPTLIMITS
+[009]         3 SETBACKGROUNDCOLOR (6a/74/95)
+[029]        26 SERIALNUMBER
+[02b]        12 FRAMELABEL ""
+[057]       381 DEFINEBINARY defines id 0001
+[057]      5030 DEFINEBINARY defines id 0002
+[057]    373283 DEFINEBINARY defines id 0003
+[057]     10010 DEFINEBINARY defines id 0004
+[057]    415200 DEFINEBINARY defines id 0005
+[057]     59659 DEFINEBINARY defines id 0006
+[057]     83520 DEFINEBINARY defines id 0007
+[04b]      8206 DEFINEFONT3 defines id 0008
+[058]        71 DEFINEFONTNAME adds information to id 0008 "Soopafresh"
+                Copyrights © 1997 Claes Kallarsson. All Rights Reserved.
+[038]       113 EXPORTASSETS
+                exports 0001 as "tribulle.composants.ComposantTribu_COMPOSANT_MEMBRE_TRIBU_XML"
+                exports 0002 as "tribulle.composants.ComposantTribu_TRIBU_XML"
+[052]   1966876 DOABC "frame1", lazy load
+[04c]       300 SYMBOLCLASS
+                exports 0003 as "_x_TransformiceFLA"
+                exports 0004 as "_x_squeletteChat"
+                exports 0005 as "_x_Ressources_Class"
+                exports 0006 as "_x_IndianaMouse"
+                exports 0002 as "tribulle.composants.ComposantTribu_TRIBU_XML"
+                exports 0007 as "_x_B_1"
+                exports 0001 as "tribulle.composants.ComposantTribu_COMPOSANT_MEMBRE_TRIBU_XML"
+                exports 0008 as "_"
+                exports 0000 as ""
+[001]         0 SHOWFRAME 1 (00:00:00,000) (label "")
+[000]         0 END

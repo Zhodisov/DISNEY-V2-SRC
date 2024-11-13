@@ -1,0 +1,92 @@
+# Query: match.group(1)
+# ContextLines: 1
+
+21 results - 4 files
+
+tfmparser\checker.py:
+  69  									if match:
+  70: 										self["tfm_instance1"] = match.group(1) if match else "Not_found"
+  71  										break
+
+  83  											if match:
+  84: 												self["tfm_instance2"] = match.group(1) if match else "Not_found"
+  85  												break
+
+tfmparser\mapclass.py:
+  52                                      if match:
+  53:                                         self["x_btnValider"] = match.group(1) if match else "Not_found"
+  54                                          break
+
+  61                              if match:
+  62:                                 self["x_btnValider_class_name"] = match.group(1) if match else "Not_found"
+  63                                  break
+
+  73                                          if match:
+  74:                                             self["x_pass"] = match.group(1) if match else "Not_found"
+  75                                              break
+
+  90                                                          if match:
+  91:                                                             self["x_btnValider_2"] = match.group(1) if match else "Not_found"
+  92                                                              break
+
+tfmparser\player.py:
+  169  												if match:
+  170: 													self["is_static"] = match.group(1) if match else "Not_found"
+  171  													break
+
+  183  												if match:
+  184: 													self["function_static"] = match.group(1) if match else "Not_found"
+  185  													break
+
+  197  												if match:
+  198: 													self["function_static2"] = match.group(1) if match else "Not_found"
+  199  													break
+
+  211  											if match:
+  212: 												self["friction_charge"] = match.group(1) if match else "Not_found"
+  213  												break
+
+  225  											if match:
+  226: 												self["friction_charge"] = match.group(1) if match else "Not_found"
+  227  												break
+
+  235  											if match:
+  236: 												self["change_player_pos"] = match.group(1) if match else "Not_found"
+  237  												break
+
+  248  											if match:
+  249: 												self["player_pos_class_name"] = match.group(1) if match else "Not_found"
+  250  												break
+
+  258  											if match:
+  259: 												self["packets_class_name"] = match.group(1) if match else "Not_found"
+  260  												break
+
+  270  											if match:
+  271: 												self["move_player_packet"] = match.group(1) if match else "Not_found"
+  272  												break
+
+  282  											if match:
+  283: 												self["is_self_player"] = match.group(1) if match else "Not_found" if match else "Not_found"
+  284  												break
+
+tfmparser\socket.py:
+   89  						if match:
+   90: 							self["event_bulle_socket_close"] = match.group(1) if match else "Not_found"
+   91  							break
+
+  101  														if match:
+  102: 															self["socket_name3"] = match.group(1) if match else "Not_found"
+  103  															break
+
+  111  														if match:
+  112: 															self["packet_keys_array"] = match.group(1) if match else "Not_found"
+  113  															break
+
+  120  									if match:
+  121: 										self["socket2_class_name"] = match.group(1) if match else "Not_found"
+  122  										break
+
+  132  									if match:
+  133: 										self["socket69"] = match.group(1) if match else "Not_found"
+  134  										break
